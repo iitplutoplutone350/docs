@@ -111,7 +111,8 @@ This will conduct a call to a smart contract that will store a message onchain.
 
 ```jsx
 return Near.call("nearsocialexamples.near", "set_greeting", {
-  message: "Hi Near Social",
+  message: "Hi Near Social","300000000000000",
+  "1000000000000000000000000"
 });
 ```
 
